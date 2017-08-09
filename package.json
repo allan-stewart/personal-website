@@ -1,0 +1,19 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Generator for my personal website.",
+  "main": "build.js",
+  "dependencies": {
+    "http-server": "^0.10.0",
+    "markdown": "^0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node build && http-server ./www",
+    "build": "node build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Allan Stewart",
+  "license": "MIT",
+  "private": true
+}
