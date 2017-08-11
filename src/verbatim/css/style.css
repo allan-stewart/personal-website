@@ -49,9 +49,26 @@ a {
     color: #009ACD;
 }
 
+h1, h2, h3, h4 {
+    margin-bottom: 0;
+}
+
 h1 {
     font-size: 2em;
     border-bottom: 1px solid #666666;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+li {
+    margin-top: 5px;
+    line-height: 1.5;
 }
 
 article {
@@ -76,7 +93,7 @@ article {
 }
 
 .blog-list-item {
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .blog-list-item .date {
