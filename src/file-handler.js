@@ -57,7 +57,7 @@ const writeFile = (path, contents) => {
 }
 
 const copyFile = (from, to) => {
-    writeFile(to, readFile(from))
+    fileSystem.writeFileSync('./www/' + to, fileSystem.readFileSync(from))
 }
 
 const copyVerbatimContent = () => {

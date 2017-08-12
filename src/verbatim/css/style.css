@@ -92,6 +92,18 @@ article {
     font-style: italic;
 }
 
+.headshot {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+@media (max-width: 600px) {
+    .headshot {
+        float: none;
+    }
+}
+
 .blog-list-item {
     margin-top: 30px;
 }
