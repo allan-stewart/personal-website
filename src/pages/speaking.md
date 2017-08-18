@@ -1,5 +1,5 @@
 # Speaking
-I enjoy speaking about topics about software developement.
+I enjoy speaking on topics about software development.
 I have presented at a number of conferences, both public and within the companies I have worked for.
 
 Here are some of the topics I am currently speaking on:
@@ -10,6 +10,7 @@ In this talk, I discuss my experiences on a team that practiced mob programming 
 I cover what mob programming is and many of the benefits it provides.
 
 ## Levels of Abstraction and the Single Responsibility Principle
+Writing code is inherently an exercise in abstraction.
 How can a better understanding of abstractions help us follow the single responsibility principle and write better code?
 Can these concepts be applied outside of code at the library or service level?
 
