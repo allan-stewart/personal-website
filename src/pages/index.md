@@ -13,6 +13,11 @@ practicing [mob programming](http://mobprogramming.org) daily.
 I am a regular attendee of the [Utah Software Craftsmanship](http://utahsc.org/) group
 and I speak at local conferences and meetups.
 
+You can find me on:
+[GitHub](https://github.com/allan-stewart),
+[Twitter](https://twitter.com/allancodes),
+and [LinkedIn](https://www.linkedin.com/in/allan-stewart-0661368/).
+
 
 ## Influences
 I was interested in computers and code from a young age.
@@ -37,9 +42,3 @@ I believe that we need more professionalism in our industry.
 Individuals need to choose that path and demonstrate the value to businesses.
 When applied collaboratively in teams, the professional's practices make those teams more effective.
 And once we've found practices that work, we need to share them with others.
-
-
-## Links
-* [GitHub](https://github.com/allan-stewart)
-* [Twitter](https://twitter.com/allancodes)
-* [LinkedIn](https://www.linkedin.com/in/allan-stewart-0661368/)
