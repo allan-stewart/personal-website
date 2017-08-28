@@ -10,7 +10,7 @@ Here are some of the topics I am currently speaking on:
 ### 2.5 Years of Mob Programming
 Mob programming is described by Woody Zuill as "all the brilliant people working on the same thing, at the same time, in the same space, and on the same computer."
 In this talk, I discuss my experiences on a team that practiced mob programming daily.
-I cover what mob programming is and many of the benefits it provides.
+I cover what mob programming is, the principles that make it effective, and many of the benefits it provides.
 
 ### Levels of Abstraction and the Single Responsibility Principle
 Writing code is inherently an exercise in abstraction.
