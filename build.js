@@ -17,15 +17,18 @@ fileHandler.getAllPages().forEach(page => {
 
 fileHandler.makeDirectory('./www/blog')
 const posts = require('./src/blog/posts.json')
+const getPostLink = (index) => {
+    return `<a href="${posts[index].file}">${posts[index].title}</a>`
+}
 const getPreviousLink = (index) => {
     if (index > 0) {
-        return `<a href="${posts[index - 1].file}">&lt; ${posts[index - 1].title}</a> | `
+        return `<br/>Newer: ${getPostLink(index - 1)}`
     }
     return ''
 }
 const getNextLink = (index) => {
     if (index + 1 < posts.length) {
-        return ` | <a href="${posts[index + 1].file}">${posts[index + 1].title} &gt;</a>`
+        return `<br/>Older: ${getPostLink(index + 1)}`
     }
     return ''
 }
