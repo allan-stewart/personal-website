@@ -13,7 +13,7 @@ practicing [mob programming](http://mobprogramming.org) daily.
 I am a regular attendee of the [Utah Software Craftsmanship](http://utahsc.org/) group
 and I speak at local conferences and meetups.
 
-You can find me on:
+You can find me on
 [GitHub](https://github.com/allan-stewart),
 [Twitter](https://twitter.com/allancodes),
 and [LinkedIn](https://www.linkedin.com/in/allan-stewart-0661368/).
