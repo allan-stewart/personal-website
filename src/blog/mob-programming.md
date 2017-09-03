@@ -1,6 +1,6 @@
 # Mob Programming
 
-_[Originally posted on the [Pluralsight Tech Blog](https://www.pluralsight.com/tech-blog/mob-programming)]_
+_Originally published on Jun 2, 2017 on the [Pluralsight Tech Blog](https://www.pluralsight.com/tech-blog/mob-programming)_
 
 When I joined Pluralsight, I knew going in that it was going to be a different kind of company.
 They were already practicing things that I'd been learning about and struggling to implement in my prior company, like TDD and continuous delivery.
