@@ -17,9 +17,21 @@ fileHandler.getAllPages().forEach(page => {
 
 fileHandler.makeDirectory('./www/blog')
 const posts = require('./src/blog/posts.json')
-posts.forEach(post => {
+const getPreviousLink = (index) => {
+    if (index > 0) {
+        return `<a href="${posts[index - 1].file}">&lt; ${posts[index - 1].title}</a> | `
+    }
+    return ''
+}
+const getNextLink = (index) => {
+    if (index + 1 < posts.length) {
+        return ` | <a href="${posts[index + 1].file}">${posts[index + 1].title} &gt;</a>`
+    }
+    return ''
+}
+posts.forEach((post, index) => {
     let article = markdown(fileHandler.readFile(`./src/blog/${post.file}.md`))
     post.snip = markdown(post.snip + ` [more...](/blog/${post.file})` || '')
-    fileHandler.writeFile(`blog/${post.file}.html`, templates.applyBlogTemplate({article, title: post.title}))
+    fileHandler.writeFile(`blog/${post.file}.html`, templates.applyBlogTemplate({article, title: post.title, previous: getPreviousLink(index), next: getNextLink(index)}))
 })
 fileHandler.writeFile(`blog/index.html`, templates.applyBlogListTemplate({list: posts}))

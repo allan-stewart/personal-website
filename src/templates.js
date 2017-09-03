@@ -15,8 +15,8 @@ const templates = {
     },
     blog: {
         html: fileHandler.readFile(templateDir + 'blog.html'),
-        replacements: ['article'],
-        defaults: {article: ''}
+        replacements: ['article', 'previous', 'next'],
+        defaults: {article: '', previous: '', next: ''}
     },
     blogList: {
         html: fileHandler.readFile(templateDir + 'blog-list.html'),
