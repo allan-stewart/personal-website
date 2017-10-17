@@ -1,4 +1,5 @@
 [
+    { "title": "Architecture and Architects", "file": "architecture-and-architects", "date": "Oct 6, 2017", "snip": "The software industry has always held a basic assumption that architecture is important. By association, the role of architect has always been esteemed important. But unfortunately, it isn't always clear what architecture is or what an architect's job should be." },
     { "title": "Mob Programming", "file": "mob-programming", "date": "Jun 2, 2017", "snip": "When I joined Pluralsight, I knew going in that it was going to be a different kind of company. They were already practicing things that I'd been learning about and struggling to implement in my prior company, like TDD and continuous delivery. But I didn't realize just how different my day-to-day work would be until I found that my team was doing something called _mob programming_." },
     { "title": "Continuous Code Reviews", "file": "continuous-code-reviews", "date": "Mar 17, 2017", "snip": "Code reviews are generally accepted as good thing in software development. Some of the benefits include improving quality, sharing knowledge of a system, and promoting collective code ownership."}
 ]
