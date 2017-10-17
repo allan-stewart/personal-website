@@ -25,7 +25,7 @@ This presentation covers aspects of craftsmanship and why both developers and em
 
 ## Speaker Bio
 
-Allan Stewart is a software craftsman and tech lead at Pluralsight,
+Allan Stewart is a software architect and craftsman at Pluralsight,
 a company dedicated to democratizing professional technology learning.
 He enjoyed computers and writing code from a young age,
 which led him to earn his Computer Science degree and go on to a professional software development career.
