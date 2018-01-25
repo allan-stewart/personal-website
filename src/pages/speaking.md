@@ -12,10 +12,10 @@ Mob programming is described by Woody Zuill as "all the brilliant people working
 In this talk, I discuss my experiences on a team that practiced mob programming daily.
 I cover what mob programming is, the principles that make it effective, and many of the benefits it provides.
 
-### Levels of Abstraction and the Single Responsibility Principle
-Writing code is inherently an exercise in abstraction.
-How can a better understanding of abstractions help us follow the single responsibility principle and write better code?
-Can these concepts be applied outside of code at the library or service level?
+### Your Architecture is Coupled to Your Culture
+Can the culture of your company negatively impact your software architecture?
+Should your desired software architecture lead to changing how teams are structured in your organization?
+In this talk I will discuss how this hidden coupling affects software projects and give some specific examples of how Pluralsight leveraged it.
 
 ### Software Craftsmanship
 There is a growing movement within the software industry that calls for people who write code to act and be treated more professionally.
