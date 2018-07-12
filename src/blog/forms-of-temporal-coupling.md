@@ -78,7 +78,7 @@ Incomplete data is often "complete enough" for many purposes.
 ## Circumstance
 
 The last form of temporal coupling that I'll cover is one of circumstance.
-[Wikipedia](https://en.wikipedia.org/wiki/Coupling_(computer_programming)) defines temporal coupling as:
+[Wikipedia](https://en.wikipedia.org/wiki/Coupling_%28computer_programming%29) defines temporal coupling as:
 
 > When two actions are bundled together into one module just because they happen to occur at the same time.
 
