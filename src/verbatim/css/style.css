@@ -125,3 +125,14 @@ blockquote {
     border: 1px solid #009ACD;
     border-left: 4px solid #009ACD;
 }
+
+.footnotes {
+    font-size: .8em;
+    margin: 20px 0;
+}
+
+.blog-image {
+    text-align: center;
+    font-size: .8em;
+    margin: 30px 0;
+}
