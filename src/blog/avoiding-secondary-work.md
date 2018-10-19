@@ -1,6 +1,5 @@
 # Avoiding Secondary Work
 
-
 _Originally published on Jun 29, 2018 on the [Pluralsight Tech Blog](https://www.pluralsight.com/tech-blog/avoiding-secondary-work)_
 
 An important lesson I've learned at Pluralsight is that when we let ourselves get too busy we create additional work for ourselves.
