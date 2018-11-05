@@ -27,12 +27,22 @@ const templates = {
         html: fileHandler.readFile(templateDir + 'blog-list-item.html'),
         replacements: ['file', 'title', 'date', 'snip'],
         defaults: {}
+    },
+    blogRssBase: {
+        html: fileHandler.readFile(templateDir + 'blog-rss-base.xml'),
+        replacements: ['list'],
+        defaults: {}
+    },
+    blogRssItem: {
+        html: fileHandler.readFile(templateDir + 'blog-rss-item.xml'),
+        replacements: ['title', 'link', 'snip', 'date'],
+        defaults: {}
     }
 }
 
 const applyTemplate = (template, data) => {
     let html = template.html
-    template.replacements.forEach(x => html = html.replace(`:${x}:`, (data[x] || template.defaults[x])))
+    template.replacements.forEach(x => html = html.replace(new RegExp(`:${x}:`, 'g'), (data[x] || template.defaults[x])))
     return html
 }
 
@@ -50,8 +60,14 @@ const applyBlogListTemplate = (data) => {
     return applyBaseTemplate({content: applyTemplate(templates.blogList, {list}), title: 'Blog'})
 }
 
+const applyBlogRssTemplate = (data) => {
+    let list = data.list.map(x => applyTemplate(templates.blogRssItem, x)).join('\n')
+    return applyTemplate(templates.blogRssBase, {list})
+}
+
 module.exports = {
     applyBaseTemplate,
     applyBlogTemplate,
-    applyBlogListTemplate
+    applyBlogListTemplate,
+    applyBlogRssTemplate
 }

@@ -17,6 +17,21 @@ fileHandler.getAllPages().forEach(page => {
 
 fileHandler.makeDirectory('./www/blog')
 const posts = require('./src/blog/posts.json')
+
+const zeroPad = (input) => {
+    var output = `0${input}`
+    return output.length > 2 ? output.substring(1) : output
+}
+const buildRssDate = (input) => {
+    const date = new Date(input)
+    const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+    return `${daysOfWeek[date.getUTCDay()]}, ${zeroPad(date.getUTCDate())} ${months[date.getUTCMonth()]} ${date.getUTCFullYear()} 00:00:00 +0000`
+}
+
+const rssData = posts.map(x => ({...x, link: 'http://allan-stewart.github.io/blog/' + x.file, date: buildRssDate(x.date)}))
+fileHandler.writeFile(`blog/rss.xml`, templates.applyBlogRssTemplate({list: rssData}))
+
 const getPostLink = (index) => {
     return `<a href="${posts[index].file}">${posts[index].title}</a>`
 }
