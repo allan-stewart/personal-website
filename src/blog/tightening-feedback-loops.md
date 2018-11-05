@@ -32,7 +32,7 @@ Here are some examples:
 * a bug was shipped to production which isn't found for months, but then it turns out that some customers rely on the unintended behavior
 * the new feature we created doesn't actually get used by customers
 
-To avoid these problems we must to tighten our feedback loops to be as fast as possible.
+To avoid these problems we must tighten our feedback loops to be as fast as possible.
 
 Some feedback loops can be tightened through technical means.
 We can use newer computers to compile code more quickly.
