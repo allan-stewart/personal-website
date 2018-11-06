@@ -142,3 +142,7 @@ blockquote {
         width: 80%;
     }
 }
+
+#rss {
+    float: right;
+}
