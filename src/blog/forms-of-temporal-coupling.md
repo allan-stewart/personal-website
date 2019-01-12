@@ -1,7 +1,5 @@
 # Forms of Temporal Coupling
 
-_Originally published on Dec 1, 2017 on the [Pluralsight Tech Blog](https://www.pluralsight.com/tech-blog/forms-of-temporal-coupling)_
-
 Coupling is an important concept in software development because it limits the ability of software to change.
 Temporal coupling is a kind of coupling where code is dependent on time in some way.
 It is particularly insidious because it is hard to detect unless you know what you are looking for.

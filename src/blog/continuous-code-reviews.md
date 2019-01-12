@@ -1,7 +1,5 @@
 # Continuous Code Reviews
 
-_Originally published on Mar 17, 2017 on the [Pluralsight Tech Blog](https://www.pluralsight.com/tech-blog/continuous-code-reviews)_
-
 Code reviews are generally accepted as good thing in software development.
 Some of the benefits include improving quality, sharing knowledge of a system,
 and promoting collective code ownership.

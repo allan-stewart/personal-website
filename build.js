@@ -51,6 +51,9 @@ posts.forEach((post, index) => {
     let article = markdown(fileHandler.readFile(`./src/blog/${post.file}.md`))
     post.snip = markdown(post.snip + ` [more...](/blog/${post.file})` || '')
     const canonical = post.canonical ? `<link rel="canonical" href="${post.canonical}">` : ''
+    if (post.canonical) {
+        article = article.replace('</h1>', `</h1>\n<p><em>Originally published on ${post.date} on the <a href="${post.canonical}">Pluralsight Tech Blog</a></em></p>`)
+    }
     fileHandler.writeFile(`blog/${post.file}.html`, templates.applyBlogTemplate({article, title: post.title, previous: getPreviousLink(index), next: getNextLink(index), headers: canonical}))
 })
 fileHandler.writeFile(`blog/index.html`, templates.applyBlogListTemplate({list: posts}))

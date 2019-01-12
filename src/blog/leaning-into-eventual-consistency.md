@@ -1,7 +1,5 @@
 # Leaning into Eventual Consistency
 
-_Originally published on Feb 23, 2018 on the [Pluralsight Tech Blog](https://www.pluralsight.com/tech-blog/leaning-into-eventual-consistency)_
-
 Distributed systems are hard.
 They have a lot of moving parts with complex interactions and are inherently multi-threaded.
 To make them work, there is often some form of eventual consistency at play.

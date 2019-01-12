@@ -1,7 +1,5 @@
 # Reducing Risk by Deleting Code
 
-_Originally published on Apr 20, 2018 on the [Pluralsight Tech Blog](https://www.pluralsight.com/tech-blog/delete-code)_
-
 One of my favorite activities as a software professional is to delete code.
 Over time, I've learned that this is one of the best things I can do because the ideal amount of code is _no code at all_.
 

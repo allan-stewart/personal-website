@@ -1,7 +1,5 @@
 # Tightening Feedback Loops
 
-_Originally published on Oct 12, 2018 on the [Pluralsight Tech Blog](https://www.pluralsight.com/tech-blog/tightening-feedback-loops)_
-
 Feedback is the information we get back from the world in response to doing something.
 Without feedback, there is no way to know whether we are accomplishing our goals.
 

@@ -1,7 +1,5 @@
 # Managing Technical Debt
 
-_Originally published on Dec 21, 2018 on the [Pluralsight Tech Blog](https://www.pluralsight.com/tech-blog/managing-technical-debt)_
-
 [Technical debt](https://martinfowler.com/bliki/TechnicalDebt.html) is a widely known metaphor which helps us think about how technical issues hurt our ability to deliver business value via software systems.
 But knowing the concept is different from actually _managing_ technical debt.
 Unfortunately, many software teams know that they have technical debt, but don't know what do to about it.

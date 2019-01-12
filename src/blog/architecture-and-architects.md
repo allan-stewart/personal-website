@@ -1,7 +1,5 @@
 # Architecture and Architects
 
-_Originally published on Oct 6, 2017 on the [Pluralsight Tech Blog](https://www.pluralsight.com/tech-blog/architecture-and-architects)_
-
 The software industry has always held a basic assumption that architecture is important.
 By association, the role of architect has always been esteemed important.
 But unfortunately, it isn't always clear what architecture is or what an architect's job should be.
