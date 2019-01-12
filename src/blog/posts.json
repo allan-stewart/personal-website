@@ -1,11 +1,56 @@
 [
-    { "title": "Managing Technical Debt", "file": "managing-technical-debt", "date": "Dec 21, 2018", "snip": "Technical debt is a widely known metaphor which helps us think about how technical issues hurt our ability to deliver business value via software systems. But knowing the concept is different from actually managing technical debt. Unfortunately, many software teams know that they have technical debt, but don't know what do to about it."},
-    { "title": "Tightening Feedback Loops", "file": "tightening-feedback-loops", "date": "Oct 12, 2018", "snip": "Feedback is the information we get back from the world in response to doing something. Without feedback, there is no way to know whether we are accomplishing our goals."},
-    { "title": "Avoiding Secondary Work", "file": "avoiding-secondary-work", "date": "Jun 29, 2018", "snip": "An important lesson I've learned at Pluralsight is that when we let ourselves get too busy we create additional work for ourselves. This additional work is a form of non-valuable meta-work which I refer to as _secondary work._ It gets in the way of doing the work that actually delivers value."},
-    { "title": "Reducing Risk by Deleting Code", "file": "delete-code", "date": "Apr 20, 2018", "snip": "One of my favorite activities as a software professional is to delete code. Over time, I've learned that this is one of the best things I can do because the ideal amount of code is _no code at all._"},
-    { "title": "Leaning into Eventual Consistency", "file": "leaning-into-eventual-consistency", "date": "Feb 23, 2018", "snip": "Distributed systems are hard. They have a lot of moving parts with complex interactions and are inherently multi-threaded. To make them work, there is often some form of eventual consistency at play. Embracing this can make software development easier."},
-    { "title": "Forms of Temporal Coupling", "file": "forms-of-temporal-coupling", "date": "Dec 1, 2017", "snip": "Coupling is an important concept in software development because it limits the ability of software to change. Temporal coupling is a kind of coupling where code is dependent on time in some way. It is particularly insidious because it is hard to detect unless you know what you are looking for." },
-    { "title": "Architecture and Architects", "file": "architecture-and-architects", "date": "Oct 6, 2017", "snip": "The software industry has always held a basic assumption that architecture is important. By association, the role of architect has always been esteemed important. But unfortunately, it isn't always clear what architecture is or what an architect's job should be." },
-    { "title": "Mob Programming", "file": "mob-programming", "date": "Jun 2, 2017", "snip": "When I joined Pluralsight, I knew going in that it was going to be a different kind of company. They were already practicing things that I'd been learning about and struggling to implement in my prior company, like TDD and continuous delivery. But I didn't realize just how different my day-to-day work would be until I found that my team was doing something called _mob programming_." },
-    { "title": "Continuous Code Reviews", "file": "continuous-code-reviews", "date": "Mar 17, 2017", "snip": "Code reviews are generally accepted as good thing in software development. Some of the benefits include improving quality, sharing knowledge of a system, and promoting collective code ownership."}
+    {
+        "title": "Managing Technical Debt",
+        "file": "managing-technical-debt",
+        "date": "Dec 21, 2018",
+        "snip": "Technical debt is a widely known metaphor which helps us think about how technical issues hurt our ability to deliver business value via software systems. But knowing the concept is different from actually managing technical debt. Unfortunately, many software teams know that they have technical debt, but don't know what do to about it."
+    },
+    {
+        "title": "Tightening Feedback Loops",
+        "file": "tightening-feedback-loops",
+        "date": "Oct 12, 2018",
+        "snip": "Feedback is the information we get back from the world in response to doing something. Without feedback, there is no way to know whether we are accomplishing our goals."
+    },
+    {
+        "title": "Avoiding Secondary Work",
+        "file": "avoiding-secondary-work",
+        "date": "Jun 29, 2018",
+        "snip": "An important lesson I've learned at Pluralsight is that when we let ourselves get too busy we create additional work for ourselves. This additional work is a form of non-valuable meta-work which I refer to as _secondary work._ It gets in the way of doing the work that actually delivers value."
+    },
+    {
+        "title": "Reducing Risk by Deleting Code",
+        "file": "delete-code",
+        "date": "Apr 20, 2018",
+        "snip": "One of my favorite activities as a software professional is to delete code. Over time, I've learned that this is one of the best things I can do because the ideal amount of code is _no code at all._"
+    },
+    {
+        "title": "Leaning into Eventual Consistency",
+        "file": "leaning-into-eventual-consistency",
+        "date": "Feb 23, 2018",
+        "snip": "Distributed systems are hard. They have a lot of moving parts with complex interactions and are inherently multi-threaded. To make them work, there is often some form of eventual consistency at play. Embracing this can make software development easier."
+    },
+    {
+        "title": "Forms of Temporal Coupling",
+        "file": "forms-of-temporal-coupling",
+        "date": "Dec 1, 2017",
+        "snip": "Coupling is an important concept in software development because it limits the ability of software to change. Temporal coupling is a kind of coupling where code is dependent on time in some way. It is particularly insidious because it is hard to detect unless you know what you are looking for."
+    },
+    {
+        "title": "Architecture and Architects",
+        "file": "architecture-and-architects",
+        "date": "Oct 6, 2017",
+        "snip": "The software industry has always held a basic assumption that architecture is important. By association, the role of architect has always been esteemed important. But unfortunately, it isn't always clear what architecture is or what an architect's job should be."
+    },
+    {
+        "title": "Mob Programming",
+        "file": "mob-programming",
+        "date": "Jun 2, 2017",
+        "snip": "When I joined Pluralsight, I knew going in that it was going to be a different kind of company. They were already practicing things that I'd been learning about and struggling to implement in my prior company, like TDD and continuous delivery. But I didn't realize just how different my day-to-day work would be until I found that my team was doing something called _mob programming_."
+    },
+    {
+        "title": "Continuous Code Reviews",
+        "file": "continuous-code-reviews",
+        "date": "Mar 17, 2017",
+        "snip": "Code reviews are generally accepted as good thing in software development. Some of the benefits include improving quality, sharing knowledge of a system, and promoting collective code ownership."
+    }
 ]
