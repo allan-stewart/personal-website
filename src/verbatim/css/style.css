@@ -137,6 +137,26 @@ blockquote {
     margin: 30px 0;
 }
 
+code {
+    font-family: monospace;
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #009ACD;
+    border-radius: 3px;
+    padding: 2px 3px;
+}
+
+pre {
+    background-color: #009ACD;
+    border-radius: 3px;
+    padding: 10px 15px;
+    overflow-x: scroll;
+}
+
+pre code {
+    padding: 0;
+}
+
 @media (max-width: 600px) {
     .blog-image img {
         width: 80%;
