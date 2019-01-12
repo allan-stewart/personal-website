@@ -5,8 +5,8 @@ const templateDir = './src/templates/'
 const templates = {
     base: {
         html: fileHandler.readFile(templateDir + 'base.html'),
-        replacements: ['title', 'nav', 'content'],
-        defaults: {title: '', nav: '', content: ''}
+        replacements: ['title', 'nav', 'content', 'headers'],
+        defaults: {title: '', nav: '', content: '', headers: ''}
     },
     nav: {
         html: fileHandler.readFile(templateDir + 'nav.html'),
@@ -48,11 +48,11 @@ const applyTemplate = (template, data) => {
 
 const applyBaseTemplate = (data) => {
     let title = data.title ? `Allan Stewart - ${data.title}` : 'Allan Stewart'
-    return applyTemplate(templates.base, {nav: templates.nav.html, title, content: data.content})
+    return applyTemplate(templates.base, {nav: templates.nav.html, title, content: data.content, headers: data.headers})
 }
 
 const applyBlogTemplate = (data) => {
-    return applyBaseTemplate({content: applyTemplate(templates.blog, data), title: data.title})
+    return applyBaseTemplate({content: applyTemplate(templates.blog, data), title: data.title, headers: data.headers})
 }
 
 const applyBlogListTemplate = (data) => {

@@ -50,6 +50,7 @@ const getNextLink = (index) => {
 posts.forEach((post, index) => {
     let article = markdown(fileHandler.readFile(`./src/blog/${post.file}.md`))
     post.snip = markdown(post.snip + ` [more...](/blog/${post.file})` || '')
-    fileHandler.writeFile(`blog/${post.file}.html`, templates.applyBlogTemplate({article, title: post.title, previous: getPreviousLink(index), next: getNextLink(index)}))
+    const canonical = post.canonical ? `<link rel="canonical" href="${post.canonical}">` : ''
+    fileHandler.writeFile(`blog/${post.file}.html`, templates.applyBlogTemplate({article, title: post.title, previous: getPreviousLink(index), next: getNextLink(index), headers: canonical}))
 })
 fileHandler.writeFile(`blog/index.html`, templates.applyBlogListTemplate({list: posts}))
