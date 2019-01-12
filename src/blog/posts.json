@@ -32,14 +32,14 @@
         "file": "leaning-into-eventual-consistency",
         "date": "Feb 23, 2018",
         "snip": "Distributed systems are hard. They have a lot of moving parts with complex interactions and are inherently multi-threaded. To make them work, there is often some form of eventual consistency at play. Embracing this can make software development easier.",
-        "canonical": "https://www.pluralsight.com/tech-blog/managing-technical-debt"
+        "canonical": "https://www.pluralsight.com/tech-blog/leaning-into-eventual-consistency"
     },
     {
         "title": "Forms of Temporal Coupling",
         "file": "forms-of-temporal-coupling",
         "date": "Dec 1, 2017",
         "snip": "Coupling is an important concept in software development because it limits the ability of software to change. Temporal coupling is a kind of coupling where code is dependent on time in some way. It is particularly insidious because it is hard to detect unless you know what you are looking for.",
-        "canonical": "https://www.pluralsight.com/tech-blog/leaning-into-eventual-consistency"
+        "canonical": "https://www.pluralsight.com/tech-blog/forms-of-temporal-coupling"
     },
     {
         "title": "Architecture and Architects",
