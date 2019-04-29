@@ -42,8 +42,16 @@ const templates = {
 
 const applyTemplate = (template, data) => {
     let html = template.html
-    template.replacements.forEach(x => html = html.replace(new RegExp(`:${x}:`, 'g'), (data[x] || template.defaults[x])))
+    template.replacements.forEach(x => html = replaceAll(html, `:${x}:`, (data[x] || template.defaults[x])))
     return html
+}
+
+const replaceAll = (original, match, replacement) => {
+    if (match.length < 1) {
+        return original
+    }
+
+    return original.split(match).join(replacement)
 }
 
 const applyBaseTemplate = (data) => {
