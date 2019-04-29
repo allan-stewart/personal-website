@@ -1,5 +1,19 @@
 [
     {
+        "title": "No Perfect Architecture",
+        "file": "no-perfect-architecture",
+        "date": "Mar 1, 2019",
+        "snip": "What sort of software architecture should you be implementing? When looking at industry trends, blogs, conference talks, and the like, it is easy to think that other companies have everything figured out. You'd be forgiven for wanting to copy the success that others are having. But there is no perfect architecture. Everything is a set of tradeoffs; there are only good and bad fits for a context.",
+        "canonical": "https://www.pluralsight.com/tech-blog/no-perfect-architecture"
+    },
+    {
+        "title": "Testing HTTP Calls",
+        "file": "testing-http-calls",
+        "date": "Jan 18, 2019",
+        "snip": "Making HTTP calls to get resources or call APIs is a staple of software development. But if you do not properly abstract the request construction and response handling from the HTTP library that you use, it can be extremely difficult to test.",
+        "canonical": "https://www.pluralsight.com/tech-blog/testing-http-calls"
+    },
+    {
         "title": "Managing Technical Debt",
         "file": "managing-technical-debt",
         "date": "Dec 21, 2018",
