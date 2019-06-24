@@ -8,8 +8,9 @@ methodologies and practices around software development as I am about actually w
 I am an advocate for Agile and Lean methods combined with practices such as test driven development,
 continuous integration, and continuous delivery.
 
-I currently work at [Pluralsight](https://www.pluralsight.com) on the architecture team.
-Previously, I was the technical lead on a team practicing [mob programming](http://mobprogramming.org) daily.
+I currently work at [Emmersion Learning](https://www.emmersionlearning.com/) as the lead architect.
+Previously, I was on the architecture team at [Pluralsight](https://www.pluralsight.com)
+where I spent some time as the technical lead on a team practicing [mob programming](http://mobprogramming.org) daily.
 I am a regular attendee of the [Utah Software Craftsmanship](http://utahsc.org/) group
 and I speak at local conferences and meetups.
 

@@ -25,8 +25,8 @@ This presentation covers aspects of craftsmanship and why both developers and em
 
 ## Speaker Bio
 
-Allan Stewart is a software architect and craftsman at Pluralsight,
-a company dedicated to democratizing professional technology learning.
+Allan Stewart is a software architect and craftsman at Emmersion Learning,
+a company focused on innovating in the language learning and testing space.
 He enjoyed computers and writing code from a young age,
 which led him to earn his Computer Science degree and go on to a professional software development career.
 He has experience from small local shops up to international enterprise companies
@@ -34,4 +34,4 @@ doing full-stack development with a focus on server-side APIs.
 
 Since graduation from college in 2006, Allan has learned that how we write software is as important as getting a job done.
 He is an advocate for test-driven clean code written by collaborative teams practicing Agile and Lean practices.
-He has spoken at a number of conferences and user groups, including Agile Roots and Utah Code Camp.
+He has spoken at a number of conferences and user groups, including Agile Roots, Big Mountain Data & Dev, and OpenWest.
