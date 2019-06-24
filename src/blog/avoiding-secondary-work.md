@@ -25,9 +25,11 @@ trying to remember what old items were all about, making updates, breaking out t
 Sadly, much of this work ends up being pure waste because we never end up writing the code to deliver those features.
 
 <div class="blog-image">
+
 ![image of a big backlog](../img/big-backlog.png)
-<br/>
+
 _How much secondary work will this backlog generate?_
+
 </div>
 
 We should reduce this waste and recover time to do _real_ work &mdash; the work that actually adds value.
@@ -74,9 +76,11 @@ Then they are available when someone needs help or a code review.
 Work gets done faster as you focus on finishing work instead of starting new work.
 
 <div class="blog-image">
+
 ![image of a backlog with WIP limits](../img/backlog-with-wip-limits.png)
-<br/>
+
 _WIP limits prevent the accumulation of secondary work._
+
 </div>
 
 Although taking a short break can be very beneficial,
@@ -120,17 +124,21 @@ Avoid or eliminate secondary work.
 
 <div class="footnotes">
 <ol>
-    <a name="footnote_1"></a>
-    <li>
-        WIP can also be called work-in-process.
-        Most of the time, the two terms "process" and "progress" can be used interchangeably,
-        but in a few cases (especially relating to finance) there can be important differences. [↩](#reference_1)
-    </li>
-    <a name="footnote_2"></a>
-    <li>
-        If you want to learn more about Lean, I highly recommend the book [_This is Lean_](https://thisislean.com/) by Niklas Modig &amp; Pär Åhlström.
-        Rather than trying to map Lean practices from other industries over to software development,
-        it focuses on core principles which are broadly applicable. [↩](#reference_2)
-    </li>
+<a name="footnote_1"></a>
+<li>
+
+WIP can also be called work-in-process.
+Most of the time, the two terms "process" and "progress" can be used interchangeably,
+but in a few cases (especially relating to finance) there can be important differences. [↩](#reference_1)
+
+</li>
+<a name="footnote_2"></a>
+<li>
+
+If you want to learn more about Lean, I highly recommend the book [_This is Lean_](https://thisislean.com/) by Niklas Modig &amp; Pär Åhlström.
+Rather than trying to map Lean practices from other industries over to software development,
+it focuses on core principles which are broadly applicable. [↩](#reference_2)
+
+</li>
 </ol>
 </div>

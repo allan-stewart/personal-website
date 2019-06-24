@@ -137,6 +137,11 @@ blockquote {
     margin: 30px 0;
 }
 
+.blog-image p {
+    margin: 0;
+    padding: 0;
+}
+
 code {
     font-family: monospace;
     font-size: 1.2em;

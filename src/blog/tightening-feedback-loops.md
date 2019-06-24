@@ -6,7 +6,9 @@ Without feedback, there is no way to know whether we are accomplishing our goals
 In software development, there are many opportunities to use feedback to improve. Perhaps the most obvious one is getting feedback from our users, but there are many others that come before we can get our software in front of customers.
 
 <div class="blog-image">
+
 ![feedback loops](../img/feedback_loops.png)
+
 </div>
 
 Our designs get feedback from the limitations we encounter when writing the code.

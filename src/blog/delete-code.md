@@ -40,7 +40,9 @@ The right amount of code is an optimization problem.
 Generally speaking, you want your codebase to be small relative to the feature value you provide, but not so small that you start violating good design principles.
 
 <div class="blog-image">
+
 ![risk versus size](/img/risk-vs-size.png)
+
 </div>
 
 ## Delete Code
@@ -81,13 +83,17 @@ Mercilessly delete code that isn't providing value!
 
 <div class="footnotes">
 <ol>
-    <a name="footnote_1"></a>
-    <li>
-        I heard this story related by Neal Ford on the [SE-Radio podcast](http://www.se-radio.net/2017/04/se-radio-episode-287-success-skills-for-architects-with-neil-ford/) (32 minutes in). [↩](#reference_1)
-    </li>
-    <a name="footnote_2"></a>
-    <li>
-        This definition of the term "refactoring" comes from [Martin Fowler's bliki](https://martinfowler.com/bliki/DefinitionOfRefactoring.html). He literally wrote the book on it. [↩](#reference_2)
-    </li>
+<a name="footnote_1"></a>
+<li>
+
+I heard this story related by Neal Ford on the [SE-Radio podcast](http://www.se-radio.net/2017/04/se-radio-episode-287-success-skills-for-architects-with-neil-ford/) (32 minutes in). [↩](#reference_1)
+
+</li>
+<a name="footnote_2"></a>
+<li>
+
+This definition of the term "refactoring" comes from [Martin Fowler's bliki](https://martinfowler.com/bliki/DefinitionOfRefactoring.html). He literally wrote the book on it. [↩](#reference_2)
+
+</li>
 </ol>
 </div>
