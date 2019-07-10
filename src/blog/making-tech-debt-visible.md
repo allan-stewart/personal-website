@@ -5,12 +5,12 @@ Usually only the coders can detect it, and even they can't always see it clearly
 So how can we make it visible for other people, so they understand the impact?
 Without that, how we can make effective business decisions?
 
-I've been pondering this question while reading Dominica DeGrandis' excellent book, [_Making Work Visible_](http://ddegrandis.com/book/).
+I've been pondering these questions while reading Dominica DeGrandis' excellent book, [_Making Work Visible_](http://ddegrandis.com/book/).
 She recommends that technical debt be added to kanban boards for visibility and to prevent it from becoming neglected.
 I very much agree that this should be done, but is it enough?
 
 Putting cards on your board for technical debt adds some great visibility.
-It's a great way to help you [manage tech debt](./managing-tech-debt.html) and help people know what initiatives are being worked on.
+It's a great way to help you [manage tech debt](./managing-technical-debt.html) and help people know what initiatives are being worked on.
 But it doesn't convey a sense of the overall state of your codebase.
 It doesn't answer the questions: "How much technical debt do we have?" or "How bad is it?"
 
@@ -58,28 +58,22 @@ In a great article about [software quality](https://martinfowler.com/articles/is
 
 This metaphor is useful in explaining the technical debt scale: it's a gauge for how messy our kitchen is.
 A value of 1 is a relatively (though not completely) clean kitchen.
-A value of 5 represents a huge mess where every surface is a mess and the dirty dishes overflow from the sink.
+A value of 5 represents a huge mess where every surface is filthy and the dirty dishes overflow from the sink.
 Working in the code is like cooking; it's hard to cook effectively in a messy kitchen.
 
-When trying the technical debt scale for the first time, I used imagery from this metaphor to make a poster.
-
+When trying the technical debt scale for the first time, I used images of clean and dirty kitchens on a poster to communicate the idea.
+The metaphor made it easy for everyone to understand the concept.
+Our developers quickly came to agreement and drew a large `4` on the poster
+(we have our work cut out for us).
+Now the poster hangs on our wall near our product planning area to keep it in mind as we plan our upcoming work.
 
 
 ## Conclusion
 
+Left unchecked, technical debt can destroy your ability to deliver business value.
+Unfortunately, it is easy to disregard because it is invisible.
+So expose that debt.
 Make it visible.
 
------
-
-
-> Then post the value somewhere so it is visible!
-
-
-
-
-
-## Some Header Here
-
-> Explanations exist; they have existed for all time; there is always a well-known solution to every human problem — neat, plausible, and wrong.
-> 
-> &mdash; H. L. Mencken
+Use technical debt cards on your kanban board to make your current and near-term efforts visible.
+But for the overall health of your system, consider using a technical debt scale.

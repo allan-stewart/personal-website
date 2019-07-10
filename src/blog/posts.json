@@ -1,5 +1,11 @@
 [
     {
+        "title": "Making Technical Debt Visible",
+        "file": "making-tech-debt-visible",
+        "date": "Jul 10, 2019",
+        "snip": "One of the problems with [technical debt](https://martinfowler.com/bliki/TechnicalDebt.html) is that it is effectively invisible. Usually only the coders can detect it, and even they can't always see it clearly. So how can we make it visible for other people, so they understand the impact? Without that, how we can make effective business decisions?"
+    },
+    {
         "title": "No Perfect Architecture",
         "file": "no-perfect-architecture",
         "date": "Mar 1, 2019",
