@@ -1,5 +1,11 @@
 [
     {
+        "title": "Feedback Distance",
+        "file": "feedback-distance",
+        "date": "Dec 17, 2019",
+        "snip": "Getting feedback is critical for developing software. We need it at multiple levels, from code reviews to monitoring production systems. [Feedback speed is important](./tighening-feedback-loops.html), but it can be difficult to measure how long it takes to get feedback due to the high degree of variation inherent in the processes. For example, UI tests often take significantly longer when they are failing than when they are passing. So can we measure feedback in some other way?"
+    },
+    {
         "title": "Making Technical Debt Visible",
         "file": "making-tech-debt-visible",
         "date": "Jul 10, 2019",
