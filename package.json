@@ -4,7 +4,7 @@
   "description": "Generator for my personal website.",
   "main": "build.js",
   "dependencies": {
-    "http-server": "^0.10.0",
+    "http-server": "^0.12.3",
     "marked": "^0.6.2"
   },
   "devDependencies": {},
