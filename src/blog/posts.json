@@ -1,5 +1,11 @@
 [
     {
+        "title": "Resilient Programming",
+        "file": "resilient-programming",
+        "date": "Jul 18, 2020",
+        "snip": "Conventional wisdom holds that in order to work effectively, you need to eliminate distractions. Interruptions can be particularly bad on software developers, as described in numerous articles, blogs, and [even](https://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer/) [comic](https://dilbert.com/strip/2017-01-05) [strips](http://www.commitstrip.com/en/2018/01/11/the-war-on-interruptions/). But this is only one side of the equation. Are there things one can do to be more resilient to distraction?"
+    },
+    {
         "title": "Feedback Distance",
         "file": "feedback-distance",
         "date": "Dec 17, 2019",
