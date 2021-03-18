@@ -7,10 +7,13 @@ I have presented at a number of conferences, both public and within the companie
 
 Here are some of the topics I am currently speaking on:
 
-### 2.5 Years of Mob Programming
+### Mob Programming
 Mob programming is described by Woody Zuill as "all the brilliant people working on the same thing, at the same time, in the same space, and on the same computer."
-In this talk, I discuss my experiences on a team that practiced mob programming daily.
+In this talk, I discuss my experiences with teams that practice mob programming daily, including fully remote teams.
 I cover what mob programming is, the principles that make it effective, and many of the benefits it provides.
+
+A version of this talk was recorded at a virtual meeting of the [SLC.NET User Group](https://slcnet.tech/):
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nPzY16vUnA0?start=940" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Your Architecture is Coupled to Your Culture
 Can the culture of your company negatively impact your software architecture?
