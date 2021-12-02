@@ -8,15 +8,23 @@ methodologies and practices around software development as I am about actually w
 I am an advocate for Agile and Lean methods combined with practices such as test driven development,
 continuous integration, and continuous delivery.
 
-I currently work at [Emmersion Learning](https://www.emmersionlearning.com/) as the lead architect.
-Previously, I was on the architecture team at [Pluralsight](https://www.pluralsight.com)
-where I spent some time as the technical lead on a team practicing [mob programming](http://mobprogramming.org) daily.
+I currently work at [Entrata](https://www.entrata.com/) as a software architect.
+Previously, I worked at [Emmersion](https://emmersion.ai/) and [Pluralsight](https://www.pluralsight.com)
+where we built successful distributed systems
+and practiced [mob programming](http://mobprogramming.org) daily.
 I am a regular attendee of the [Utah Software Craftsmanship](http://utahsc.org/) group
 and I speak at local conferences and meetups.
 
-You can find me on
-[GitHub](https://github.com/allan-stewart),
-[Twitter](https://twitter.com/allancodes),
+<img class="podcast-logo" src="https://d1ohtljhghz8nz.cloudfront.net/logo-180.png" alt="Crafting Code Podcast logo">
+
+Online you can find me on the [Crafting Code Podcast](https://crafting-code-podcast.github.io/index.html)
+where my co-hosts and I share our thoughts on how to develop software professionally.
+In the community, I am a regular attendee of the [Utah Software Craftsmanship](http://utahsc.org/) group
+and I speak at local conferences and meetups.
+Sharing experiences and learning from others is something I believe is very important for our industry;
+I also really enjoy it.
+
+You can also find me on [GitHub](https://github.com/allan-stewart)
 and [LinkedIn](https://www.linkedin.com/in/allan-stewart-0661368/).
 
 

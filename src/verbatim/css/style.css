@@ -96,11 +96,23 @@ article {
     width: 300px;
     height: 300px;
     float: right;
+    margin-left: 25px;
+}
+
+.podcast-logo {
+    float: left;
+    margin-right: 25px;
 }
 
 @media (max-width: 600px) {
     .headshot {
         float: none;
+        margin: 0;
+    }
+
+    .podcast-logo {
+        float: none;
+        margin: 0;
     }
 }
 
