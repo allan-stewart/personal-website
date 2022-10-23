@@ -28,7 +28,7 @@ This presentation covers aspects of craftsmanship and why both developers and em
 
 ## Speaker Bio
 
-Allan Stewart is a software architect at Entrata.
+Allan Stewart is a lead software engineer at SynkedUP.
 He enjoyed computers and writing code from a young age,
 which led him to earn his Computer Science degree and go on to a professional software development career.
 He has experience from small local shops up to international enterprise companies
