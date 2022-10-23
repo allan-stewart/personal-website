@@ -8,7 +8,7 @@ methodologies and practices around software development as I am about actually w
 I am an advocate for Agile and Lean methods combined with practices such as test driven development,
 continuous integration, and continuous delivery.
 
-I currently work at [Entrata](https://www.entrata.com/) as a software architect.
+I currently work at [SynkedUP](https://synkedup.com/) as a lead engineer.
 Previously, I worked at [Emmersion](https://emmersion.ai/) and [Pluralsight](https://www.pluralsight.com)
 where we built successful distributed systems
 and practiced [mob programming](http://mobprogramming.org) daily.
