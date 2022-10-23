@@ -4,8 +4,8 @@
   "description": "Generator for my personal website.",
   "main": "build.js",
   "dependencies": {
-    "http-server": "^0.12.3",
-    "marked": "^2.0.1"
+    "http-server": "^14.1.1",
+    "marked": "^4.1.1"
   },
   "scripts": {
     "start": "node build && http-server ./www",

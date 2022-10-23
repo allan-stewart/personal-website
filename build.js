@@ -1,4 +1,4 @@
-const markdown = require('marked')
+const markdown = require('marked').marked
 const fileHandler = require('./src/file-handler')
 const templates = require('./src/templates')
 
