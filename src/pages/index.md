@@ -5,7 +5,7 @@
 I love writing code.
 Over the years as I have learned to do it professionally, I have found that I am as interested in the
 methodologies and practices around software development as I am about actually writing code.
-I am an advocate for Agile and Lean methods combined with practices such as test driven development,
+I am an advocate for Agile and Lean methods combined with practices such as test-driven development,
 continuous integration, and continuous delivery.
 
 I currently work at [SynkedUP](https://synkedup.com/) as a lead engineer.
