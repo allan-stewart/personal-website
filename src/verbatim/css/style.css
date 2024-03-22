@@ -136,6 +136,8 @@ blockquote {
     padding: 0 1.2em;
     border: 1px solid #009ACD;
     border-left: 4px solid #009ACD;
+    background-color: #f0fafe;
+    border-radius: 15px;
 }
 
 .footnotes {
