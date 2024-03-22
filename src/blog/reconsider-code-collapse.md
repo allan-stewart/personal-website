@@ -1,17 +1,17 @@
 # Reconsider Code Collapse
 
 There exists a common code editor feature masquerading as a benefit, but is actually aiding and abetting terrible code.
-It stands off to the side of each and every code file, ready to mask a mess.
+It stands off to the side of each and every file, ready to mask a mess.
 And all too often, it does its dirty work automatically.
 
 It is the code collapse feature.
 
-Yes, that little chevron sitting by the line numbers, looking innocent.
+Yes, that innocent looking little chevron sitting by the line numbers.
 
 Sure, it _says_ that it is just there to help, but really it's trying to create places to stash some bad code.
 Like those unused `import` or `using` statements you accidentally added.
-Or that really long function which really needs to be broken up.
-Perhaps that part of the code with the deep nesting with the high cyclomatic complexity,
+Or that long function which really needs to be broken up.
+Perhaps that part of the code with the deep nesting and high cyclomatic complexity,
 or else the poor coupling and cohesion of that monstrous class.
 
 Clean code doesn't need to be collapsed.

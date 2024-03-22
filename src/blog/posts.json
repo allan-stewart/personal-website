@@ -3,7 +3,7 @@
         "title": "Reconsider Code Collapse",
         "file": "reconsider-code-collapse",
         "date": "Mar 21, 2024",
-        "snip": "There exists a common code editor feature masquerading as a benefit, but is actually aiding and abetting terrible code. It stands off to the side of each and every code file, ready to mask a mess. And all too often, it does its dirty work automatically."
+        "snip": "There exists a common code editor feature masquerading as a benefit, but is actually aiding and abetting terrible code. It stands off to the side of each and every file, ready to mask a mess. And all too often, it does its dirty work automatically."
     },
     {
         "title": "Resilient Programming",
