@@ -12,8 +12,6 @@ I currently work at [SynkedUP](https://synkedup.com/) as a lead engineer.
 Previously, I worked at [Emmersion](https://emmersion.ai/) and [Pluralsight](https://www.pluralsight.com)
 where we built successful distributed systems
 and practiced [mob programming](http://mobprogramming.org) daily.
-I am a regular attendee of the [Utah Software Craftsmanship](http://utahsc.org/) group
-and I speak at local conferences and meetups.
 
 <img class="podcast-logo" src="https://d1ohtljhghz8nz.cloudfront.net/logo-180.png" alt="Crafting Code Podcast logo">
 
